@@ -1,0 +1,2 @@
+$function lj.bundle_forge:operate_on_armor_stand {slot:'$(slot)',func:'lj.bundle_forge:bundle_modify_check.1'}
+$execute unless score $lj.bundle_forge:require_update lj.INT matches 0 run function lj.bundle_forge:bundle_update {slot:'$(slot)'}

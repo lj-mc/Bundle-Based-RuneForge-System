@@ -1,0 +1,36 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "lj.bundle_forge:tech": {
+      "display_components": {
+        "minecraft:item_name": {
+          "translate": "item.minecraft.netherite_chestplate"
+        },
+        "minecraft:item_model": "minecraft:netherite_chestplate",
+        "minecraft:attribute_modifiers": [
+          {
+            "type": "minecraft:armor",
+            "amount": 8,
+            "operation": "add_value",
+            "id": "minecraft:armor.chestplate",
+            "slot": "chest"
+          },
+          {
+            "type": "minecraft:armor_toughness",
+            "amount": 3,
+            "operation": "add_value",
+            "id": "minecraft:armor.chestplate",
+            "slot": "chest"
+          },
+          {
+            "type": "minecraft:knockback_resistance",
+            "amount": 0.1,
+            "operation": "add_value",
+            "id": "minecraft:armor.chestplate",
+            "slot": "chest"
+          }
+        ]
+      }
+    }
+  }
+}

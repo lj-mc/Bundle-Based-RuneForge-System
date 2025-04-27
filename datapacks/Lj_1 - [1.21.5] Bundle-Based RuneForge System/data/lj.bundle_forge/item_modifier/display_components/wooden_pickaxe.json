@@ -1,0 +1,29 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "lj.bundle_forge:tech": {
+      "display_components": {
+        "minecraft:item_name": {
+          "translate": "item.minecraft.wooden_pickaxe"
+        },
+        "minecraft:item_model": "minecraft:wooden_pickaxe",
+        "minecraft:attribute_modifiers": [
+          {
+            "type": "minecraft:attack_damage",
+            "amount": 1,
+            "operation": "add_value",
+            "id": "minecraft:base_attack_damage",
+            "slot": "mainhand"
+          },
+          {
+            "type": "minecraft:attack_speed",
+            "amount": -2.8,
+            "operation": "add_value",
+            "id": "minecraft:base_attack_speed",
+            "slot": "mainhand"
+          }
+        ]
+      }
+    }
+  }
+}

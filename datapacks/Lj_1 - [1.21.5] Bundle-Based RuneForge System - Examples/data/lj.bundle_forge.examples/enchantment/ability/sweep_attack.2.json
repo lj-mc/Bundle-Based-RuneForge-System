@@ -1,0 +1,30 @@
+{
+	"description": {"translate":"[Sweep Attack]","color":"#3fafff","bold":true},
+	"slots": ["mainhand"],
+	"effects":{
+		"minecraft:post_attack": [
+			{
+				"affected": "attacker",
+				"enchanted": "attacker",
+				"effect": {
+					"type": "run_function",
+					"function": "lj.bundle_forge.examples:sweep_attack/attack"
+				}
+			}
+		],
+		"minecraft:tick": [
+			{
+				"effect": {
+					"type": "run_function",
+					"function": "lj.bundle_forge.examples:sweep_attack/tick"
+				}
+			}
+		]
+	},
+	"anvil_cost": 1000,
+	"supported_items": [],
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {"base": 1,"per_level_above_first": 0},
+	"max_cost": {"base": 1,"per_level_above_first": 0}
+}

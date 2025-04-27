@@ -1,0 +1,8 @@
+{
+	"criteria": {
+		"a": {
+			"trigger": "minecraft:using_item"
+		}
+	},
+	"rewards": {"function": "lj.bundle_forge.examples:right_click"}
+}

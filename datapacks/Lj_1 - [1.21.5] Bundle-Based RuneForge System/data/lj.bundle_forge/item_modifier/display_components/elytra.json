@@ -1,0 +1,14 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "lj.bundle_forge:tech": {
+      "display_components": {
+        "minecraft:item_name": {
+          "translate": "item.minecraft.elytra"
+        },
+        "minecraft:item_model": "minecraft:elytra",
+        "minecraft:rarity":"epic"
+      }
+    }
+  }
+}

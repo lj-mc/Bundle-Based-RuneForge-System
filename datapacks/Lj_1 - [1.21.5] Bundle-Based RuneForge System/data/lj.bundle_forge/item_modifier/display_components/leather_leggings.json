@@ -1,0 +1,22 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "lj.bundle_forge:tech": {
+      "display_components": {
+        "minecraft:item_name": {
+          "translate": "item.minecraft.leather_leggings"
+        },
+        "minecraft:item_model": "minecraft:leather_leggings",
+        "minecraft:attribute_modifiers": [
+          {
+            "type": "minecraft:armor",
+            "amount": 2,
+            "operation": "add_value",
+            "id": "minecraft:armor.leggings",
+            "slot": "legs"
+          }
+        ]
+      }
+    }
+  }
+}

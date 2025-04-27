@@ -1,0 +1,10 @@
+{
+	"description": {"translate":"%1$s Throws a sword at the enemy you","with":[{"translate":"2. Decapitate:","color":"white"}],"color":"#3fafff","italic":false},
+	"slots": ["mainhand"],
+	"anvil_cost": 1000,
+	"supported_items": [],
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {"base": 1,"per_level_above_first": 0},
+	"max_cost": {"base": 1,"per_level_above_first": 0}
+}

@@ -1,0 +1,58 @@
+{
+	"description": {"translate":"[Arcane Blade]","color":"gold","bold":true},
+	"slots": ["mainhand"],
+	"effects":{
+		"minecraft:post_attack": [
+			{
+				"affected": "victim",
+				"enchanted": "attacker",
+				"effect": {
+					"type": "run_function",
+					"function": "lj.bundle_forge.examples:arcane_blade/attack_victim"
+				}
+			},
+			{
+				"affected": "attacker",
+				"enchanted": "attacker",
+				"effect": {
+					"type": "run_function",
+					"function": "lj.bundle_forge.examples:arcane_blade/attack"
+				}
+			}
+		],
+		"minecraft:tick": [
+			{
+				"effect": {
+					"type": "run_function",
+					"function": "lj.bundle_forge.examples:arcane_blade/tick"
+				}
+			},
+			{
+				"effect": {
+					"type": "minecraft:explode",
+					"attribute_to_user": true,
+					"damage_type": "minecraft:explosion",
+					"radius": 6,
+					"create_fire": false,
+					"block_interaction": "none",
+					"sound":"minecraft:item.totem.use",
+					"large_particle": {"type": "minecraft:explosion_emitter"},
+					"small_particle": {"type": "minecraft:explosion_emitter"}
+				},
+				"requirements": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {"lj.bundle_forge.examples.V.explode_time": -1}
+					}
+				]
+			}
+		]
+	},
+	"anvil_cost": 1000,
+	"supported_items": [],
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {"base": 1,"per_level_above_first": 0},
+	"max_cost": {"base": 1,"per_level_above_first": 0}
+}

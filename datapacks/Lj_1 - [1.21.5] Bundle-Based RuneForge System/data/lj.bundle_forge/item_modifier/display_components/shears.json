@@ -1,0 +1,13 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "lj.bundle_forge:tech": {
+      "display_components": {
+        "minecraft:item_name": {
+          "translate": "item.minecraft.shears"
+        },
+        "minecraft:item_model": "minecraft:shears"
+      }
+    }
+  }
+}

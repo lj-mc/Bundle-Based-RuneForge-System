@@ -1,0 +1,3 @@
+execute store result score $lj.bundle_forge:require_update lj.INT run execute if data entity @s equipment.head.components."minecraft:bundle_contents".[{}]
+execute store result score $lj.bundle_forge:0 lj.INT run execute if data entity @s equipment.head.components."minecraft:custom_data"."lj.bundle_forge:tech".runes.[{}]
+scoreboard players operation $lj.bundle_forge:require_update lj.INT -= $lj.bundle_forge:0 lj.INT

@@ -1,0 +1,1 @@
+scoreboard players set @s lj.bundle_forge.examples.V.right_click 0

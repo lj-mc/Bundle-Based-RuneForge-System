@@ -1,0 +1,1 @@
+$execute if items entity @s weapon.mainhand $(supported_items) run scoreboard players set $lj.bundle_forge:rune_valid lj.INT 1

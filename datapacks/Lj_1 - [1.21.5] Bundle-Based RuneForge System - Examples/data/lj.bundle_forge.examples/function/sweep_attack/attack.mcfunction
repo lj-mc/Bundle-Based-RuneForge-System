@@ -1,0 +1,2 @@
+execute unless score @s lj.bundle_forge.examples.V.sweep_cd matches ..-1 run function lj.bundle_forge.examples:sweep_attack/attack.1
+execute if score @s lj.bundle_forge.examples.V.sweep_attack_phase matches 4 anchored eyes run function lj.bundle_forge.examples:sweep_attack/attack.2

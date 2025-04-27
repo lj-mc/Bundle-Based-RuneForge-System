@@ -1,0 +1,13 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "lj.bundle_forge:tech": {
+      "display_components": {
+        "minecraft:item_name": {
+          "translate": "item.minecraft.warped_fungus_on_a_stick"
+        },
+        "minecraft:item_model": "minecraft:warped_fungus_on_a_stick"
+      }
+    }
+  }
+}

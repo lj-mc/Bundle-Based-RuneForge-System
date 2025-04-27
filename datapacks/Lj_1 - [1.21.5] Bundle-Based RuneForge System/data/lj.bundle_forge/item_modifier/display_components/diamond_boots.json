@@ -1,0 +1,29 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "lj.bundle_forge:tech": {
+      "display_components": {
+        "minecraft:item_name": {
+          "translate": "item.minecraft.diamond_boots"
+        },
+        "minecraft:item_model": "minecraft:diamond_boots",
+        "minecraft:attribute_modifiers": [
+          {
+            "type": "minecraft:armor",
+            "amount": 3,
+            "operation": "add_value",
+            "id": "minecraft:armor.boots",
+            "slot": "feet"
+          },
+          {
+            "type": "minecraft:armor_toughness",
+            "amount": 2,
+            "operation": "add_value",
+            "id": "minecraft:armor.boots",
+            "slot": "feet"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "lj.bundle_forge:tech": {
+      "display_components": {
+        "minecraft:item_name": {
+          "translate": "item.minecraft.mace"
+        },
+        "minecraft:item_model": "minecraft:mace",
+        "minecraft:attribute_modifiers": [
+          {
+            "type": "minecraft:attack_damage",
+            "amount": 5,
+            "operation": "add_value",
+            "id": "minecraft:base_attack_damage",
+            "slot": "mainhand"
+          },
+          {
+            "type": "minecraft:attack_speed",
+            "amount": -3.4,
+            "operation": "add_value",
+            "id": "minecraft:base_attack_speed",
+            "slot": "mainhand"
+          }
+        ],
+        "minecraft:rarity":"epic"
+      }
+    }
+  }
+}

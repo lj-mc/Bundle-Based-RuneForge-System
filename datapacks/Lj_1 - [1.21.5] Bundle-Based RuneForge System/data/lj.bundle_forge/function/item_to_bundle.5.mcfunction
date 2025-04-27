@@ -1,0 +1,2 @@
+$data remove entity @s equipment.head.components."minecraft:custom_data"."lj.bundle_forge:item".base.$(path)
+$data modify entity @s equipment.head.components."minecraft:custom_data"."lj.bundle_forge:item".base.$(path) set from entity @s equipment.head.$(path) 

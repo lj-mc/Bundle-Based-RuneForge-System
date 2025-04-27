@@ -1,0 +1,2 @@
+execute unless entity @s[tag=lj.bundle_forge.examples.T_arcane_spin] if predicate {condition:"entity_properties",entity:"this",predicate:{movement:{fall_distance:{min:0.00001}}}} run function lj.bundle_forge.examples:arcane_blade/attack.2
+execute if entity @s[tag=lj.bundle_forge.examples.T_arcane_spin] if score @s lj.bundle_forge.examples.V.spin_time matches ..-1 run function lj.bundle_forge.examples:arcane_blade/attack.2

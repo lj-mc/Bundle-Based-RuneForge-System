@@ -1,0 +1,53 @@
+tag @s add lj.bundle_forge.examples.T_sweep_attacker
+execute positioned ^ ^ ^ run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^-0.8660254037844386 ^ ^0.5000000000000001 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^0.0 ^ ^1.0 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^0.8660254037844386 ^ ^0.5000000000000001 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^-1.7320508075688772 ^ ^1.0000000000000002 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^-0.9999999999999999 ^ ^1.7320508075688774 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^0.0 ^ ^2.0 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^0.9999999999999999 ^ ^1.7320508075688774 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^1.7320508075688772 ^ ^1.0000000000000002 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^-2.598076211353316 ^ ^1.5000000000000004 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^-1.9283628290596178 ^ ^2.298133329356934 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^-1.0260604299770062 ^ ^2.8190778623577253 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^0.0 ^ ^3.0 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^1.0260604299770062 ^ ^2.8190778623577253 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^1.9283628290596178 ^ ^2.298133329356934 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^2.598076211353316 ^ ^1.5000000000000004 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^-3.4641016151377544 ^ ^2.0000000000000004 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^-2.82842712474619 ^ ^2.8284271247461903 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^-1.9999999999999998 ^ ^3.464101615137755 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^-1.035276180410083 ^ ^3.8637033051562732 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^0.0 ^ ^4.0 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^1.035276180410083 ^ ^3.8637033051562732 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^1.9999999999999998 ^ ^3.464101615137755 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^2.82842712474619 ^ ^2.8284271247461903 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^3.4641016151377544 ^ ^2.0000000000000004 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^-4.330127018922193 ^ ^2.5000000000000004 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^-3.7157241273869706 ^ ^3.345653031794291 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^-2.938926261462366 ^ ^4.045084971874737 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^-2.0336832153790008 ^ ^4.567727288213004 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^-1.0395584540887965 ^ ^4.8907380036690284 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^0.0 ^ ^5.0 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^1.0395584540887965 ^ ^4.8907380036690284 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^2.0336832153790008 ^ ^4.567727288213004 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^2.938926261462366 ^ ^4.045084971874737 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^3.7157241273869706 ^ ^3.345653031794291 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^4.330127018922193 ^ ^2.5000000000000004 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^-5.196152422706632 ^ ^3.000000000000001 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^-4.596266658713868 ^ ^3.8567256581192364 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^-3.8567256581192355 ^ ^4.596266658713868 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^-2.9999999999999996 ^ ^5.196152422706632 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^-2.0521208599540124 ^ ^5.638155724715451 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^-1.041889066001582 ^ ^5.908846518073248 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^0.0 ^ ^6.0 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^1.041889066001582 ^ ^5.908846518073248 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^2.0521208599540124 ^ ^5.638155724715451 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^2.9999999999999996 ^ ^5.196152422706632 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^3.8567256581192355 ^ ^4.596266658713868 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^4.596266658713868 ^ ^3.8567256581192364 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute positioned ^5.196152422706632 ^ ^3.000000000000001 run function lj.bundle_forge.examples:sweep_attack/cast.1
+execute as @e[tag=lj.bundle_forge.examples.T_sweep_victim] run damage @s 10 player_attack by @n[tag=lj.bundle_forge.examples.T_sweep_attacker]
+tag @e remove lj.bundle_forge.examples.T_sweep_victim
+tag @s remove lj.bundle_forge.examples.T_sweep_attacker

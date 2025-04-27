@@ -1,0 +1,2 @@
+data modify entity @s equipment.mainhand.components."minecraft:attribute_modifiers" insert 1 from entity @s equipment.mainhand.components."minecraft:attribute_modifiers".[-1]
+data remove entity @s equipment.mainhand.components."minecraft:attribute_modifiers".[-1]

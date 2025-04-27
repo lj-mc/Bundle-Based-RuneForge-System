@@ -1,0 +1,1 @@
+execute if items entity @s contents #minecraft:bundles[minecraft:custom_data~{"lj.bundle_forge:item":{}}] run function lj.bundle_forge:bundle_to_item {slot:'contents'}

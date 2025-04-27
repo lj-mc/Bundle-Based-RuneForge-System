@@ -1,0 +1,2 @@
+data modify entity @s equipment.mainhand set from entity @s equipment.head.components.'minecraft:bundle_contents'.[0]
+execute if items entity @s weapon.mainhand #minecraft:bundles[minecraft:custom_data~{"lj.bundle_forge:item":{}}] run function lj.bundle_forge:bundle_cheat.2

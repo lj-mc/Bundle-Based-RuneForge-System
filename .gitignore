@@ -1,0 +1,13 @@
+/*
+!/.gitignore
+!/LICENSE
+!/datapacks
+/datapacks/*
+!/datapacks/Lj_1 - \[1.21.5\] Bundle-Based RuneForge System
+!/datapacks/Lj_1 - \[1.21.5\] Bundle-Based RuneForge System - Examples
+!/datapacks/Lj_1 - \[1.21.5\] Core
+!/.doc
+/.doc/*
+!.doc/README.tex
+!.doc/README.pdf
+!.doc/*.png

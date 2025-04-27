@@ -1,0 +1,36 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "lj.bundle_forge:tech": {
+      "display_components": {
+        "minecraft:item_name": {
+          "translate": "item.minecraft.netherite_leggings"
+        },
+        "minecraft:item_model": "minecraft:netherite_leggings",
+        "minecraft:attribute_modifiers": [
+          {
+            "type": "minecraft:armor",
+            "amount": 6,
+            "operation": "add_value",
+            "id": "minecraft:armor.leggings",
+            "slot": "legs"
+          },
+          {
+            "type": "minecraft:armor_toughness",
+            "amount": 3,
+            "operation": "add_value",
+            "id": "minecraft:armor.leggings",
+            "slot": "legs"
+          },
+          {
+            "type": "minecraft:knockback_resistance",
+            "amount": 0.1,
+            "operation": "add_value",
+            "id": "minecraft:armor.leggings",
+            "slot": "legs"
+          }
+        ]
+      }
+    }
+  }
+}

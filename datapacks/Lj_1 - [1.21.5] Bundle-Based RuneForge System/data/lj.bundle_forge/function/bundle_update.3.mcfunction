@@ -1,0 +1,3 @@
+function lj.bundle_forge:bundle_update.5 with entity @s equipment.head.components."minecraft:bundle_contents".[-1].components."minecraft:custom_data"."lj.bundle_forge:rune"
+function lj.bundle_forge:bundle_update.6 with entity @s equipment.head.components."minecraft:bundle_contents".[-1].components."minecraft:custom_data"."lj.bundle_forge:rune"
+data modify entity @s equipment.mainhand.components."minecraft:custom_data"."lj.bundle_forge:tech"."runes" prepend from entity @s equipment.head.components."minecraft:bundle_contents".[-1]

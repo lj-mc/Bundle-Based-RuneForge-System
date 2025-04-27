@@ -1,0 +1,29 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "lj.bundle_forge:tech": {
+      "display_components": {
+        "minecraft:item_name": {
+          "translate": "item.minecraft.iron_hoe"
+        },
+        "minecraft:item_model": "minecraft:iron_hoe",
+        "minecraft:attribute_modifiers": [
+          {
+            "type": "minecraft:attack_damage",
+            "amount": 0,
+            "operation": "add_value",
+            "id": "minecraft:base_attack_damage",
+            "slot": "mainhand"
+          },
+          {
+            "type": "minecraft:attack_speed",
+            "amount": -1,
+            "operation": "add_value",
+            "id": "minecraft:base_attack_speed",
+            "slot": "mainhand"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,2 @@
+$execute if entity @s[nbt={data:{"lj.bundle_forge:validity_check":{applied:['$(new)']}}}] run scoreboard players set $lj.bundle_forge:rune_valid lj.INT 0
+$execute if score $lj.bundle_forge:rune_valid lj.INT matches 0 run data modify entity @s data."lj.bundle_forge:validity_check".err_reason set from storage lj.bundle_forge:config error_msg_ir.'$(new)'

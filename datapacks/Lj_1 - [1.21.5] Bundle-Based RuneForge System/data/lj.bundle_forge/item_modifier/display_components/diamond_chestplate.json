@@ -1,0 +1,29 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "lj.bundle_forge:tech": {
+      "display_components": {
+        "minecraft:item_name": {
+          "translate": "item.minecraft.diamond_chestplate"
+        },
+        "minecraft:item_model": "minecraft:diamond_chestplate",
+        "minecraft:attribute_modifiers": [
+          {
+            "type": "minecraft:armor",
+            "amount": 8,
+            "operation": "add_value",
+            "id": "minecraft:armor.chestplate",
+            "slot": "chest"
+          },
+          {
+            "type": "minecraft:armor_toughness",
+            "amount": 2,
+            "operation": "add_value",
+            "id": "minecraft:armor.chestplate",
+            "slot": "chest"
+          }
+        ]
+      }
+    }
+  }
+}

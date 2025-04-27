@@ -1,0 +1,10 @@
+{
+	"description": {"translate":"Right-Click to enter %1$s for 30s:","with":[{"translate":"\ud83d\udde1 Doom Stance \ud83d\udde1","color":"white"}],"color":"gold","italic":false},
+	"slots": ["mainhand"],
+	"anvil_cost": 1000,
+	"supported_items": [],
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {"base": 1,"per_level_above_first": 0},
+	"max_cost": {"base": 1,"per_level_above_first": 0}
+}

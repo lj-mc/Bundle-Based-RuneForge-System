@@ -1,0 +1,22 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "lj.bundle_forge:tech": {
+      "display_components": {
+        "minecraft:item_name": {
+          "translate": "item.minecraft.golden_boots"
+        },
+        "minecraft:item_model": "minecraft:golden_boots",
+        "minecraft:attribute_modifiers": [
+          {
+            "type": "minecraft:armor",
+            "amount": 1,
+            "operation": "add_value",
+            "id": "minecraft:armor.boots",
+            "slot": "feet"
+          }
+        ]
+      }
+    }
+  }
+}
