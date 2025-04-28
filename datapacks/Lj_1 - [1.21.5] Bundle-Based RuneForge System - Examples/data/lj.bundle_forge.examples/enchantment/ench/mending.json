@@ -1,5 +1,5 @@
 {
-	"description": {"translate":"[Smite]","color":"light_purple","bold":true},
+	"description": {"translate":"[Mending]","color":"light_purple","bold":true},
 	"slots": ["mainhand"],
 	"anvil_cost": 1000,
 	"supported_items": [],

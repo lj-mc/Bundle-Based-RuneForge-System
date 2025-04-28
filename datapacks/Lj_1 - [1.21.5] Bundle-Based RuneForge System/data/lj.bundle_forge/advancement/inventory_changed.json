@@ -1,18 +1,19 @@
 {
-	"criteria":{
-		"a":{
-			"trigger":"minecraft:inventory_changed",
-			"conditions":{
-				"items":[
+	"parent": "lj.bundle_forge:root",
+	"criteria": {
+		"a": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
 					{
-						"items":"#minecraft:bundles",
-						"predicates":{
-							"minecraft:custom_data":{"lj.bundle_forge:item":{}}
+						"items": "#minecraft:bundles",
+						"predicates": {
+							"minecraft:custom_data": {"lj.bundle_forge:item": {}}
 						}
 					}
 				]
 			}
 		}
 	},
-	"rewards":{"function":"lj.bundle_forge:__inventory_changed__"}
+	"rewards": {"function": "lj.bundle_forge:inventory_changed"}
 }

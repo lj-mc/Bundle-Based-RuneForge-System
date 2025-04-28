@@ -1,4 +1,4 @@
-tag @s add lj.bundle_forge.examples.T_sweep_attacker
+tag @s add lj.bundle_forge.examples.T.sweep_attacker
 execute positioned ^ ^ ^ run function lj.bundle_forge.examples:sweep_attack/cast.1
 execute positioned ^-0.8660254037844386 ^ ^0.5000000000000001 run function lj.bundle_forge.examples:sweep_attack/cast.1
 execute positioned ^0.0 ^ ^1.0 run function lj.bundle_forge.examples:sweep_attack/cast.1
@@ -48,6 +48,6 @@ execute positioned ^2.9999999999999996 ^ ^5.196152422706632 run function lj.bund
 execute positioned ^3.8567256581192355 ^ ^4.596266658713868 run function lj.bundle_forge.examples:sweep_attack/cast.1
 execute positioned ^4.596266658713868 ^ ^3.8567256581192364 run function lj.bundle_forge.examples:sweep_attack/cast.1
 execute positioned ^5.196152422706632 ^ ^3.000000000000001 run function lj.bundle_forge.examples:sweep_attack/cast.1
-execute as @e[tag=lj.bundle_forge.examples.T_sweep_victim] run damage @s 10 player_attack by @n[tag=lj.bundle_forge.examples.T_sweep_attacker]
-tag @e remove lj.bundle_forge.examples.T_sweep_victim
-tag @s remove lj.bundle_forge.examples.T_sweep_attacker
+execute as @e[tag=lj.bundle_forge.examples.T.sweep_victim] run damage @s 10 player_attack by @n[tag=lj.bundle_forge.examples.T.sweep_attacker]
+tag @e remove lj.bundle_forge.examples.T.sweep_victim
+tag @s remove lj.bundle_forge.examples.T.sweep_attacker

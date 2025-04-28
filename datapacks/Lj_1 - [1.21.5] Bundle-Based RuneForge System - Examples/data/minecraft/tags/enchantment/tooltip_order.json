@@ -3,7 +3,7 @@
 		"lj.bundle_forge.examples:enchanted",
 		"lj.bundle_forge.examples:ench/basic_sharpness",
 		"lj.bundle_forge.examples:ench/fire",
-		"lj.bundle_forge.examples:ench/smite",
+		"lj.bundle_forge.examples:ench/mending",
 		"lj.bundle_forge.examples:ench/advanced_sharpness",
 		"minecraft:binding_curse",
 		"minecraft:vanishing_curse",
